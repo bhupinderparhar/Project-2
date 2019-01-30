@@ -1,5 +1,2 @@
-# Object file
-*.o
+# exclude .DS_Store
 
-# Ada Library Information
-*.ali
