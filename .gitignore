@@ -1,2 +1,7 @@
 # exclude .DS_Store
+# exlude all images
+*.jpg
+*.jpeg
+*.png
+
 
