@@ -1,7 +1,17 @@
+<<<<<<< HEAD
 # exclude .DS_Store
 # exlude all images
 *.jpg
 *.jpeg
 *.png
 
+=======
+#exclude all fonts
+*.eot
+*.tff
+*.woff2
+*.otf
+*.svg
+*.woff
+>>>>>>> addingIndex
 
