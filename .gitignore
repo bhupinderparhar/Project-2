@@ -1,9 +1,6 @@
 <<<<<<< HEAD
 .DS_Store
-# exclude all images
-*.jpg
-*.jpeg
-*.png
+
 
 =======
 #exclude all fonts
