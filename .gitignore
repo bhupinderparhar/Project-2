@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# exclude .DS_Store
+.DS_Store
 # exclude all images
 *.jpg
 *.jpeg
