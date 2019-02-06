@@ -188,6 +188,143 @@ function over(){
             });
 
 
+                 $("#card4").hover(function(){
+              
+               // $("#product1").attr("src","img/human.jpg");
+                $("#card4 .product-card-image").css("opacity","0");
+                $("#card4 .product-card-image2").css("opacity","1");
+                 $("#card4 .product-card-brand").css("opacity","0");
+                 $("#card4 .product-card-name").css("opacity","0");
+                 $("#card4 .product-price").css("opacity","1");
+                
+               // $("#brd2").html("$605.00 CAD");
+               //  $("#sep2").html(" ");
+             },function(){
+              
+              // $("#product1").attr("src","img/jacket.jpg");
+               $(".product-card-image").css("opacity","1");
+               $(".product-card-image2").css("opacity","0");
+              // $("#brd2").html("CAV EMPT");
+              //   $("#sep2").html("Design World Zip Jacket Black");
+              $(".product-card-brand").css("opacity","1");
+                 $(".product-card-name").css("opacity","1");
+                 $(".product-price").css("opacity","0");
+
+              
+
+            });
+
+
+                 $("#card5").hover(function(){
+              
+               // $("#product1").attr("src","img/human.jpg");
+                $("#card5 .product-card-image").css("opacity","0");
+                $("#card5 .product-card-image2").css("opacity","1");
+                 $("#card5 .product-card-brand").css("opacity","0");
+                 $("#card5 .product-card-name").css("opacity","0");
+                 $("#card5 .product-price").css("opacity","1");
+                
+               // $("#brd2").html("$605.00 CAD");
+               //  $("#sep2").html(" ");
+             },function(){
+              
+              // $("#product1").attr("src","img/jacket.jpg");
+               $(".product-card-image").css("opacity","1");
+               $(".product-card-image2").css("opacity","0");
+              // $("#brd2").html("CAV EMPT");
+              //   $("#sep2").html("Design World Zip Jacket Black");
+              $(".product-card-brand").css("opacity","1");
+                 $(".product-card-name").css("opacity","1");
+                 $(".product-price").css("opacity","0");
+
+              
+
+            });
+
+
+                 $("#card6").hover(function(){
+              
+               // $("#product1").attr("src","img/human.jpg");
+                $("#card6 .product-card-image").css("opacity","0");
+                $("#card6 .product-card-image2").css("opacity","1");
+                 $("#card6 .product-card-brand").css("opacity","0");
+                 $("#card6 .product-card-name").css("opacity","0");
+                 $("#card6 .product-price").css("opacity","1");
+                
+               // $("#brd2").html("$605.00 CAD");
+               //  $("#sep2").html(" ");
+             },function(){
+              
+              // $("#product1").attr("src","img/jacket.jpg");
+               $(".product-card-image").css("opacity","1");
+               $(".product-card-image2").css("opacity","0");
+              // $("#brd2").html("CAV EMPT");
+              //   $("#sep2").html("Design World Zip Jacket Black");
+              $(".product-card-brand").css("opacity","1");
+                 $(".product-card-name").css("opacity","1");
+                 $(".product-price").css("opacity","0");
+
+              
+
+            });
+
+                 $("#card7").hover(function(){
+              
+               // $("#product1").attr("src","img/human.jpg");
+                $("#card7 .product-card-image").css("opacity","0");
+                $("#card7 .product-card-image2").css("opacity","1");
+                 $("#card7 .product-card-brand").css("opacity","0");
+                 $("#card7 .product-card-name").css("opacity","0");
+                 $("#card7 .product-price").css("opacity","1");
+                
+               // $("#brd2").html("$605.00 CAD");
+               //  $("#sep2").html(" ");
+             },function(){
+              
+              // $("#product1").attr("src","img/jacket.jpg");
+               $(".product-card-image").css("opacity","1");
+               $(".product-card-image2").css("opacity","0");
+              // $("#brd2").html("CAV EMPT");
+              //   $("#sep2").html("Design World Zip Jacket Black");
+              $(".product-card-brand").css("opacity","1");
+                 $(".product-card-name").css("opacity","1");
+                 $(".product-price").css("opacity","0");
+
+              
+
+            });
+
+
+                 $("#card8").hover(function(){
+              
+               // $("#product1").attr("src","img/human.jpg");
+                $("#card8 .product-card-image").css("opacity","0");
+                $("#card8 .product-card-image2").css("opacity","1");
+                 $("#card8 .product-card-brand").css("opacity","0");
+                 $("#card8 .product-card-name").css("opacity","0");
+                 $("#card8 .product-price").css("opacity","1");
+                
+               // $("#brd2").html("$605.00 CAD");
+               //  $("#sep2").html(" ");
+             },function(){
+              
+              // $("#product1").attr("src","img/jacket.jpg");
+               $(".product-card-image").css("opacity","1");
+               $(".product-card-image2").css("opacity","0");
+              // $("#brd2").html("CAV EMPT");
+              //   $("#sep2").html("Design World Zip Jacket Black");
+              $(".product-card-brand").css("opacity","1");
+                 $(".product-card-name").css("opacity","1");
+                 $(".product-price").css("opacity","0");
+
+              
+
+            });
+
+
+
+
+
               $("#basket-preview1").hover(
                 function(){
                   $("#basket-preview1").css({ fill: "#000" });
