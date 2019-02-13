@@ -150,8 +150,9 @@ font-size: 12px;
 }
 
 
-.details h1{
 
+.details h1{
+width: 100%;
  font-family: "HelveticaNeueLTStd-BdCn" ;
  font-size: 2rem;
  margin:10px 0;
@@ -163,7 +164,7 @@ font-size: 12px;
 margin:10px 0;
 font-size: 1rem;
 }
-.details span{
+.details .details-brand{
   font-size: 2rem;
  font-family: "HelveticaNeueLTStd-BdCn";
 margin:10px 0;
@@ -190,11 +191,26 @@ font-size: 0.4rem;
 }
 
 @media (max-width: 45em){
+
+
 .description-holder{
+  
+  display: none;
+}
+.mobile-details{
+  display: inline-block;
+  position: relative;
+  width: 95vw;
+  left: 2.5%;
+  right: 2.5%;
+
+}
+
+/*.description-holder{
 	left: 2%;
 	top: 10%;
 
-}
+}*/
 
 .product-image-holder{
 	left: 2%;
@@ -215,10 +231,9 @@ font-size: 0.4rem;
 	display: inline-block;
 
 	margin-left: 0;
-	width: 90%;
-	left: 5%;
-	right: 5%;
-	float: left;
+	width: 100%;
+
+/*	float: left;*/
 	
 }
 
