@@ -10,6 +10,14 @@
 
 
 @font-face {
+  font-family: 'supreme';
+  src: url('../font/futura_medium italic_font.ttf');
+  src: url('../font/futura_medium italic_font.ttf') format('tff'),
+    
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
   font-family: 'HelveticaNeueLTStd-Cn';
   src: url('../font/HelveticaNeueLTStd-Cn.eot');
   src: url('../font/HelveticaNeueLTStd-Cn.eot?#iefix') format('embedded-opentype'),
