@@ -479,14 +479,14 @@ color: #a8a8a8;
 
 .details p{
 
- font-family: "HelveticaNeueLTStd-Ld";
+ font-family: "HelveticaNeueLTStd-Ld", sans-serif;
 margin:10px 0;
 font-size: 0.8rem;
 }
 
 .details-p{
   border-top: solid 1px #a8a8a8;
-  font-family: "HelveticaNeueLTStd-It";
+  font-family: "HelveticaNeueLTStd-It", sans-serif;
   padding-top: 15px;
   font-weight: 400;
 }

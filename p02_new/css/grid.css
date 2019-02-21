@@ -153,7 +153,7 @@ font-size: 12px;
 
 .details h1{
 width: 100%;
- font-family: "HelveticaNeueLTStd-BdCn" ;
+ font-family: "HelveticaNeueLTStd-BdCn";
  font-size: 2rem;
  margin:10px 0;
 
@@ -176,14 +176,14 @@ color: #a8a8a8;
 
 .details p{
 
- font-family: "HelveticaNeueLTStd-Ltd";
+font-family: "HelveticaNeueLTStd-Ld", sans-serif;
 margin:10px 0;
-font-size: 0.4rem;
+font-size: 0.7rem;
 }
 
 .details-p{
   border-top: solid 1px #a8a8a8;
-  font-family: "HelveticaNeueLTStd-It";
+  font-family: "HelveticaNeueLTStd-It" , sans-serif;
   padding-top: 15px;
   font-weight: 400;
 }
@@ -251,9 +251,15 @@ font-size: 0.4rem;
 	width: 20%;
 }
 .global_nav{
+  position: fixed;
 	width: 100%;
 	height: 100%;
+  overflow-y: hidden;
+
+
 }
+
+.global_nav::-webkit-scrollbar { display: none; !important }
 
 .header {
     /* position: relative; */
@@ -359,37 +365,12 @@ width: 90%;
 	width: 100%;
 }
 
-}
-
-
-@media (max-width: 30em){
-
-.product-image-wrapper img {
-	width: 80vw;
-	height: auto;
-}
-
-.global-nav-list {
-    position: absolute;
-    /* text-align: center; */
-    margin: 0 auto;
-    padding: 0;
-    top: 20%;
-    width: 80%;
-    right: 0;
-    left: 0;
-   text-align: left;
-
-}
-.global-nav-list a {
-  font-size: 2rem;
-  font-weight: 600;
-  font-family: 'HelveticaNeueLTStd-Lt'; 
-}
 
 
 
 }
+
+
 
 
 
@@ -411,7 +392,7 @@ font-size: 1.5em;
 
 
 .product-image-wrapper img {
-	width: 80vw;
+	width: 40vw;
 	height: auto;
 }
 
@@ -427,12 +408,68 @@ font-size: 1.5em;
    
 }
 .global-nav-list a {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 600;
   font-family: 'HelveticaNeueLTStd-Lt'; 
 }
 
 
+.global-nav-list a::before {
+  /*content: '';
+  display: inline-block;
+  height: 15px;
+  background-color: #33473F;
+
+  position: absolute;
+  top: 50%;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;*/
+}
+
+.global-nav-list a:hover::before {
+  width: 0;
+}
+
+.global-nav-list li {
+  margin-top: 2em;
+}
+
+}
+
+
+
+
+
+
+@media (max-width: 32em){
+
+.product-image-wrapper img {
+  width: 80vw;
+  height: auto;
+}
+
+.global-nav-list {
+    position: absolute;
+    /* text-align: center; */
+    margin: 0 auto;
+    padding: 0;
+    top: 20%;
+    width: 80%;
+    right: 0;
+    left: 0;
+   text-align: center;
+
+}
+.global-nav-list a {
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-family: 'HelveticaNeueLTStd-Lt'; 
+}
+
+.global-nav-list li {
+  margin-top: 2em;
+}
 
 }
 
