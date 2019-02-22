@@ -8,6 +8,54 @@ function myFunction1(){
 
 }
 
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("nav-container").style.top = "0";
+  } else {
+    document.getElementById("nav-container").style.top = "-100px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
+
+
+// $(window).scroll(function() {
+//   var $height = $(window).scrollTop();
+//   var height = $height + "%";
+
+//   // if($height > 50) {
+//     // $('#des1').css("transform", "translate3d(10%, 0, 0)");
+// $('#des1').css({"left": $height + "px"});
+//   // }
+
+//   console.log("height");
+//   //  else {
+//   //   $('#header').removeClass('active');
+//   // }
+// });
+
+
+
+
+
+
+
+
+
+
+function myFunction10(){
+ var element = document.getElementById("featured");
+ element.classList.toggle("js");
+ console.log("fhaish");
+
+
+}
+
+
+
+
 function over(){     
 
  var brand1 = document.getElementById("brand1");
@@ -408,4 +456,27 @@ element2.style.display="none";
 
 
 
+$("#first-look1").hover(function(){
+              
+               // $("#product1").attr("src","img/human.jpg");
+                // $(".card-details").addClass("js_go");
+               
+              $(".first-look-book").css("opacity","1");
+               $(".first-content img").css("transform","scale(1.2,1.2)");
+               $(".first-content img").css("-webkit-filter","grayscale(100%)"); 
+               $(".first-content img").css("filter","grayscale(100%)"); 
+
+                
+               // $("#brd2").html("$605.00 CAD");
+               //  $("#sep2").html(" ");
+             },function(){
+              
+              // $("#product1").attr("src","img/jacket.jpg");
+            
+$(".first-look-book").css("opacity","0");
+   $(".first-content img").css("transform","scale(1,1)");     
+    $(".first-content img").css("-webkit-filter","grayscale(0)"); 
+               $(".first-content img").css("filter","grayscale(0)");          
+
+            });
   

@@ -28,12 +28,12 @@
 <body>
   <header>
     <div class="header">
-     <div class="nav-container">
-      <a class="me" href="home.html">
+     <div class="nav-container" id="nav-container">
+      <a class="me" href="home.html" id="me">
         <img src="img/logo.png" alt="logo">
       </a>
       <div class="right-nav">
-        <nav class="top_nav">
+        <nav class="top_nav" id="top_nav">
           <ul class="top_nav_ul">
             <li><a onclick="myFunction1();" >BRANDS</a></li>
             <li><a  > CATAGORIES </a></li>
@@ -52,6 +52,12 @@
           <div class="bar2"></div>
           <div class="bar3"></div>
         </div>
+
+    </div>
+
+  </div>
+</div>
+
 
 
         <div class="header__menu--extra">
@@ -76,10 +82,6 @@
 
         <div class="header-icons__item hidden-xs" style="display: none;">Ru</div>
       </div>
-    </div>
-
-  </div>
-</div>
 
 <nav id="gnav" class="global_nav">
   <ul class="global-nav-list">
@@ -104,15 +106,59 @@
 <div class="brand-head">
   <h1>CAV EMPT</h1>
 </div>
-<div class="fliter">
-  <div class="sort"><a href="" >Sort</a> </div>
-<div class="search-brand"><a href="" >Search</a> </div>
+
+<div class="fliter-con">
+<div class="fliter" onclick="myFunction10();" id="fliter">
+<div class="featured" id="featured">
+  <ul>
+    <li><a  >TOPS</a></li>
+    <li><a >BOTTOMS</a></li>
+    <li><a >FOOTWEAR</a></li>
+    <li><a >BAGS</a></li>
+    <li><a >JACKETS</a></li>
+  </ul>
+
+</div>
+
+  <div class="sort"><a  >FEATURED </a> </div>
+<!-- <div class="search-brand"><a href="" >Search</a> </div> -->
+</div>
 </div>
 
 
+<section class="first-look">
+  
+
+
+  <div class="first-look1" id="first-look1">
+  <div class="first-content">  <img src="img/cav2.jpg"></div>
+<div class="first-look-book"><h2>Lookbook</h2></div>
+  </div>
+
+
+ <div class="first-look2" id="first-look2">
+  <div class="first-content2">  <img src="img/cav4.jpg">
+<!-- <div class="first-look-book2"><h2>About:</h2> -->
+
+</div>
+  </div>
+
+</section >
+ 
+
+<section class="center-des">
+  <ul>
+    <li class="des1" id="des1">Worldwide Shipping</li>
+     <li class="des2" id="des2">Free shipping on all orders over $80 USD</li>
+  </ul>
+
+</section>
+
 
 <section class="product-list">
-
+<div class="brand-head2">
+  <h1>CAV EMPT</h1>
+</div>
 
 
  <div class="product">
@@ -121,6 +167,8 @@
       <a href="description_Heavy_Smock_Black.html" class="product-card
       " id="card1">
       <span style="display:none">Days old: 21</span>
+
+
 
 
 
@@ -560,11 +608,12 @@
   </div> -->
 
 <footer>
-  <div class="bottom-info">
+  <div class="bottom-info" id="bottom-info">
   
 
 
 </div>
+</footer>
 
 <script>
 if (screen && screen.width < 768) {
@@ -576,6 +625,7 @@ console.log("akhua");
 </script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script type="text/javascript" src="js/js.js"></script>
+<script type="text/javascript" src="js/js4.js"></script>
 </body>
 </html>
 

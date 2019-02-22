@@ -32,6 +32,14 @@
 
 
 }
+
+
+
+
+
+
+
+
 @media (max-width: 76em){
 
 
@@ -40,7 +48,12 @@ font-size: 12px;
 }
 
 
+.about-content{
 
+font-size: 10em;
+
+
+}
 
 /*
 
@@ -365,7 +378,17 @@ width: 90%;
 	width: 100%;
 }
 
+.about-container{
 
+top: 20vh;
+
+}
+.about-content{
+   
+font-size: 7em;
+line-height: 1em;
+
+}
 
 
 }
@@ -374,7 +397,7 @@ width: 90%;
 
 
 
-@media (max-width: 62.5em){
+@media (max-width: 64em){
 #side-nav a{
 
 font-size: 1.5em;
@@ -435,6 +458,42 @@ font-size: 1.5em;
   margin-top: 2em;
 }
 
+
+.about-container{
+
+top: 20vh;
+
+}
+.about-img img{
+
+  display: inline-block;
+  width: 50%;
+  
+}
+.img1{
+  position: relative;
+  display: inline-block;
+   left: 10%;
+  
+}
+.img2{
+  top: 50vh;
+   left: 30%;
+  
+}
+
+.img3{
+ top: 100vh;
+   left: 0;
+  
+}
+.img4{
+top: 150vh;
+   left: 40%;
+  
+}
+
+
 }
 
 
@@ -470,6 +529,97 @@ font-size: 1.5em;
 .global-nav-list li {
   margin-top: 2em;
 }
+.about-img{
+display: none;
+}
+
+.about-container{
+  margin-bottom: 200px;
+}
+.about-content{
+   
+font-size: 2em;
+letter-spacing: 0;
+line-height: 1.25em;
+
 
 }
 
+
+.stores1 {
+
+width: 100%;
+
+margin-bottom: 80px;
+
+
+}
+.stores2 {
+
+width: 100%;
+margin-bottom: 80px;
+
+
+}
+
+.stores3 {
+
+width: 100%;
+
+margin-bottom: 80px;
+
+}
+
+.stores h3{
+
+margin-left: 0px;
+
+}
+
+
+.stores p{
+
+margin-left: 0px;
+
+  
+}
+.stores h4{
+
+margin-left: 0px;
+  
+}
+
+}
+
+
+
+@media (min-width: 90em){
+.about-content{
+
+font-size: 13em;
+
+
+}
+
+}
+
+
+@media (max-width: 82em){
+.about-content{
+
+font-size: 10em;
+
+
+}
+}
+
+
+
+@media (min-width: 100em){
+.about-content{
+position: relative;
+font-size: 14em;
+
+
+}
+}
