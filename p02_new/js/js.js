@@ -6,6 +6,10 @@ function myFunction1(){
  var element = document.getElementById("gnav");
  element.classList.toggle("js_open");
 
+var list = document.getElementById("list-body");
+     // list.style.height = "150vh";
+     // list.style.overflow = "hidden";
+
 }
 
 var prevScrollpos = window.pageYOffset;
@@ -21,21 +25,6 @@ var currentScrollPos = window.pageYOffset;
 
 
 
-// $(window).scroll(function() {
-//   var $height = $(window).scrollTop();
-//   var height = $height + "%";
-
-//   // if($height > 50) {
-//     // $('#des1').css("transform", "translate3d(10%, 0, 0)");
-// $('#des1').css({"left": $height + "px"});
-//   // }
-
-//   console.log("height");
-//   //  else {
-//   //   $('#header').removeClass('active');
-//   // }
-// });
-
 
 
 
@@ -48,7 +37,7 @@ var currentScrollPos = window.pageYOffset;
 function myFunction10(){
  var element = document.getElementById("featured");
  element.classList.toggle("js");
- console.log("fhaish");
+ console.log("");
 
 
 }

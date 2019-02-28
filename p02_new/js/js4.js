@@ -31,10 +31,13 @@ var distance2 = -window.pageYOffset + 1000;
 
 function checkOffset() {
     if($('#fliter').offset().top + $('#fliter').height() 
-                                           >= $('#bottom-info').offset().top - 100)
+                                           >= $('#bottom-info').offset().top - 10)
         $('#fliter').css('position', 'absolute');
+       // $('#fliter').css('bottom', '100px');
     if($(document).scrollTop() + window.innerHeight < $('#bottom-info').offset().top)
-        $('#fliter').css('position', 'fixed'); // restore when you scroll up
+        $('#fliter').css('position', 'fixed');
+        // $('#fliter-container').css('top', '45%'); 
+         // restore when you scroll up
     }
    
 $(document).scroll(function() {
